@@ -1,0 +1,23 @@
+div ul{
+    list-style-type: none;
+}
+div ul li{
+    background-color: red;
+    float:left;
+    width: 200px;
+    border: 2px solid white;
+    height: 50px;
+    line-height: 50px ;
+    text-align: center;
+    
+}
+div ul li:hover{
+    background-color: orange;
+}
+div ul li ul li{
+    display:none;
+}
+div ul :hover ul li{
+    display: block;
+    padding: 0;
+}
